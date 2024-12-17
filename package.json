@@ -1,0 +1,22 @@
+{
+  "name": "@example-with-unknown-zwave",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "tsc"
+  },
+  "author": "Darrell",
+  "license": "UNLICENSED",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "~5.6.2"
+  },
+  "dependencies": {
+    "zwave-js": "13.0.0"
+  }
+}
